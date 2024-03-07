@@ -1,0 +1,420 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  /* text-transform: capitalize;
+    transition:2s linear; */
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 1rem;
+  background-color: cadetblue;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0.5rem;
+  display: flex;
+}
+
+section {
+  padding: 1rem 10%;
+}
+
+header .logo {
+  font-size: 2.5rem;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: "Times New Roman";
+  top: 1rem;
+}
+
+header .navbar a {
+  font-size: 1.7rem;
+  padding: 2rem;
+  text-decoration: none;
+  color: darkslategray;
+}
+
+header .navbar i {
+  font-size: 1.7rem;
+  padding: 1rem;
+  color: darkslategray;
+}
+
+header .navbar a:hover {
+  color: whitesmoke;
+}
+
+header .navbar i:hover {
+  color: whitesmoke;
+}
+
+.Home {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 3rem;
+  background-image: url(cloths/Background_2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.Home .content {
+  max-width: 50rem;
+}
+
+.Home .content h3 {
+  font-size: 3.5rem;
+  color: darkolivegreen;
+}
+
+.Home .content span {
+  font-size: 1.3rem;
+  color: blue;
+}
+
+.Home .content .btn {
+  background-color: coral;
+  padding: 0.6rem;
+  border-radius: 2rem;
+  display: flex;
+  margin-top: 0rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  position: relative;
+  left: 1rem;
+}
+
+.Arrivals h1 {
+  font-size: 4rem;
+  text-align: center;
+  font-family: Arial;
+  text-shadow: 2px 2px 2px;
+}
+
+.Arrivals .container {
+  display: flex;
+  flex-wrap: wrap;
+  /* grid-template-columns: auto auto auto auto; */
+  grid-gap: 2rem;
+  position: relative;
+  left: 80px;
+}
+
+.Arrivals .container .box {
+  box-shadow: 0.5rem;
+  border: 0.1rem solid black;
+  position: relative;
+  top: 40px;
+}
+
+.Arrivals .container .box-1 {
+  display: inline;
+  position: relative;
+  left: 20px;
+  top: 40px;
+}
+
+.Arrivals .container .box .discount {
+  position: absolute;
+  bottom: 7.5rem;
+  left: 9.7rem;
+  padding: 0.4rem;
+  color: black;
+  border-radius: 0.7rem;
+  background-color: darkgrey;
+  z-index: 1;
+}
+
+.Arrivals .container .box .discount:hover {
+  color: mediumblue;
+  cursor: pointer;
+}
+
+.Arrivals .container .price {
+  text-align: center;
+  color: darkslateblue;
+  font: 1.1rem arial;
+}
+
+.product h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 4rem;
+  font-family: Arial;
+  text-shadow: 2px 2px 2px;
+}
+
+.product .box {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 1rem;
+  position: relative;
+  top: 2rem;
+  padding: rem;
+  left: 6rem;
+}
+
+.Blog h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 4rem;
+  font-family: Arial;
+  text-shadow: 2px 2px 2px;
+}
+
+.Blog .Blog-container {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 1rem;
+  position: relative;
+  top: 2rem;
+  padding: 0.1rem;
+  left: 50px;
+}
+
+.Blog .Blog-container .box {
+  box-shadow: 0.5rem;
+  border: 0.1rem solid black;
+  position: relative;
+  top: 0px;
+  left: 8rem;
+}
+
+.subscribe h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 4rem;
+  font-family: Arial;
+  text-shadow: 2px 2px 2px;
+}
+
+.subscribe input,
+button {
+  border-radius: 0.2rem;
+  position: relative;
+  left: 15rem;
+  top: 2rem;
+  border: 3px solid black;
+  font-size: 1.7rem;
+}
+
+.subscribe button {
+  background-color: coral;
+  font-size: 1.7rem;
+  position: relative;
+  left: 14.7rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+footer {
+  position: sticky;
+  top: 0;
+  left: 0px;
+  right: 0px;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0.5rem;
+  display: flex;
+}
+
+footer .footer1 {
+  position: relative;
+  right: 7rem;
+  top: 1rem;
+}
+
+.footer1 a {
+  text-decoration: none;
+  font-size: 2.7rem;
+  color: black;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman";
+}
+
+footer .footer2 a {
+  position: relative;
+  right: 3rem;
+  top: 1rem;
+  display: flex;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.2rem;
+}
+
+footer .footer3 {
+  position: relative;
+  left: 8rem;
+  top: 3rem;
+  font-size: 1.1rem;
+  font-family: "Times New Roman";
+  text-align: left;
+}
+
+footer .footer3 .text {
+  position: absolute;
+  bottom: 3.2rem;
+  left: 4rem;
+
+}
+
+.footer3 .symbols i {
+  padding: 0.9rem;
+  margin-left: 0.4rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  text-align: left;
+}
+
+@media only screen and (max-width: 300px) {
+  /* body {
+        background-color: green;
+    } */
+
+  header {
+    background-color: hotpink;
+    width: 100%;
+    border: 2px solid black;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+  }
+
+  .Home .content {
+    background-color: cadetblue;
+    width: 300px;
+    border: 2px solid black;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+  }
+
+  .Home {
+    width: 300px;
+    border: 2px solid black;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+  }
+
+  .Home .content .btn {
+    background-color: rebeccapurple;
+    width: 300px;
+    border: 2px solid black;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+  }
+
+  .Arrivals h1 {
+    background-color: blue;
+    width: 300px;
+    border: 2px solid black;
+    color: white;
+    padding: 10px;
+    margin: 1rem;
+  }
+
+  .Arrivals .container .box {
+    width: 300px;
+    border: 2px solid black;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+  }
+
+  .Arrivals .container .box-1 {
+    width: 300px;
+    border: auto;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+  }
+
+  .product h1 {
+    background-color: blue;
+    width: 300px;
+    border: 2px solid black;
+    color: white;
+    padding: 10px;
+    margin: 1rem;
+  }
+
+  .product .box {
+    width: 300px;
+    border: 2px solid black;
+    color: white;
+    padding: 10px;
+    margin: 3rem;
+  }
+
+  .Blog h1 {
+    background-color: blue;
+    width: 300px;
+    border: 2px solid black;
+    color: white;
+    padding: 10px;
+    margin: 1rem;
+  }
+
+  .Blog .Blog-container {
+    width: 300px;
+    border: 1px;
+    color: white;
+    padding: 10px;
+    margin: rem;
+  }
+
+  .subscribe h1 {
+    background-color: blue;
+    width: 300px;
+    border: 3px solid black;
+    color: white;
+    padding: 3rem;
+    margin: 1rem;
+  }
+
+  .subscribe input,
+  button {
+    width: 300px;
+    border: 2px solid black;
+    color: white;
+    padding: 10px;
+    margin: 1rem;
+  }
+
+  .footer1 {
+    background-color: coral;
+    width: 300px;
+    border: 2px solid black;
+    color: white;
+    padding: 2rem;
+    margin: 4rem;
+  }
+
+  .footer2 {
+    background-color: coral;
+    width: 300px;
+    border: 2px solid black;
+    color: white;
+    padding: 4rem;
+    margin: 0rem;
+  }
+
+  .footer3 {
+    background-color: coral;
+    width: 300px;
+    border: 2px solid black;
+    color: white;
+    padding: 2rem;
+    margin: 4rem;
+  }
+}
